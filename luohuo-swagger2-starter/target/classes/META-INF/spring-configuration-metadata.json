@@ -1,0 +1,86 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.swagger",
+      "type": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties"
+    },
+    {
+      "name": "luohuo.swagger.contact",
+      "type": "com.luohuo.basic.swagger2.properties.SwaggerProperties$Contact",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.swagger.contact.email",
+      "type": "java.lang.String",
+      "description": "联系人email",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties$Contact",
+      "defaultValue": ""
+    },
+    {
+      "name": "luohuo.swagger.contact.name",
+      "type": "java.lang.String",
+      "description": "联系人",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties$Contact",
+      "defaultValue": ""
+    },
+    {
+      "name": "luohuo.swagger.contact.url",
+      "type": "java.lang.String",
+      "description": "联系人url",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties$Contact",
+      "defaultValue": ""
+    },
+    {
+      "name": "luohuo.swagger.description",
+      "type": "java.lang.String",
+      "description": "描述",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "defaultValue": "luohuo-cloud 在线文档"
+    },
+    {
+      "name": "luohuo.swagger.global-operation-parameters",
+      "type": "java.util.List<com.luohuo.basic.swagger2.properties.SwaggerProperties$GlobalOperationParameter>",
+      "description": "全局参数配置",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties"
+    },
+    {
+      "name": "luohuo.swagger.license",
+      "type": "java.lang.String",
+      "description": "许可证",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "luohuo.swagger.license-url",
+      "type": "java.lang.String",
+      "description": "许可证URL",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "luohuo.swagger.terms-of-service-url",
+      "type": "java.lang.String",
+      "description": "服务条款URL",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "luohuo.swagger.title",
+      "type": "java.lang.String",
+      "description": "标题",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "defaultValue": "在线文档"
+    },
+    {
+      "name": "luohuo.swagger.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.luohuo.basic.swagger2.properties.SwaggerProperties",
+      "defaultValue": "1.0"
+    }
+  ],
+  "hints": []
+}

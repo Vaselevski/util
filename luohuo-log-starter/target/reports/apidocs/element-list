@@ -1,0 +1,7 @@
+com.luohuo.basic.log
+com.luohuo.basic.log.aspect
+com.luohuo.basic.log.event
+com.luohuo.basic.log.monitor
+com.luohuo.basic.log.properties
+com.luohuo.basic.log.util
+org.slf4j

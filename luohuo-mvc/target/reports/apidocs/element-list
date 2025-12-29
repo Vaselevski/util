@@ -1,0 +1,8 @@
+com.luohuo.basic.base
+com.luohuo.basic.base.controller
+com.luohuo.basic.base.manager
+com.luohuo.basic.base.manager.impl
+com.luohuo.basic.base.mapper
+com.luohuo.basic.base.request
+com.luohuo.basic.base.service
+com.luohuo.basic.base.service.impl

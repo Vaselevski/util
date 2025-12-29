@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.luohuo.basic.scan"},{"l":"com.luohuo.basic.scan.controller"},{"l":"com.luohuo.basic.scan.model"},{"l":"com.luohuo.basic.scan.properties"},{"l":"com.luohuo.basic.scan.utils"}];updateSearchResults();

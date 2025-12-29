@@ -1,0 +1,119 @@
+-J-Duser.language=
+-J-Duser.country=
+-Xdoclint:none
+@options
+@packages
+-classpath
+'C:/Users/95164/.m2/repository/io/netty/netty-all/4.1.117.Final/netty-all-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-buffer/4.1.117.Final/netty-buffer-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec/4.1.117.Final/netty-codec-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-dns/4.1.117.Final/netty-codec-dns-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-haproxy/4.1.117.Final/netty-codec-haproxy-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-http/4.1.117.Final/netty-codec-http-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-http2/4.1.117.Final/netty-codec-http2-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-memcache/4.1.117.Final/netty-codec-memcache-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-mqtt/4.1.117.Final/netty-codec-mqtt-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-redis/4.1.117.Final/netty-codec-redis-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-smtp/4.1.117.Final/netty-codec-smtp-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-socks/4.1.117.Final/netty-codec-socks-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-stomp/4.1.117.Final/netty-codec-stomp-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-codec-xml/4.1.117.Final/netty-codec-xml-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-common/4.1.117.Final/netty-common-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-handler/4.1.117.Final/netty-handler-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.117.Final/netty-transport-native-unix-common-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-handler-proxy/4.1.117.Final/netty-handler-proxy-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-handler-ssl-ocsp/4.1.117.Final/netty-handler-ssl-ocsp-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-resolver/4.1.117.Final/netty-resolver-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-resolver-dns/4.1.117.Final/netty-resolver-dns-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport/4.1.117.Final/netty-transport-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport-rxtx/4.1.117.Final/netty-transport-rxtx-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport-sctp/4.1.117.Final/netty-transport-sctp-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport-udt/4.1.117.Final/netty-transport-udt-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.117.Final/netty-transport-classes-epoll-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.117.Final/netty-transport-classes-kqueue-4.1.117.Final.jar;C:/Users/95164/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.117.Final/netty-resolver-dns-classes-macos-4.1.117.Final.jar;C:/Users/95164/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar;C:/Users/95164/.m2/repository/org/apache/groovy/groovy/4.0.0/groovy-4.0.0.jar;C:/Users/95164/.m2/repository/org/springframework/spring-context/6.2.5/spring-context-6.2.5.jar;C:/Users/95164/.m2/repository/org/springframework/spring-aop/6.2.5/spring-aop-6.2.5.jar;C:/Users/95164/.m2/repository/org/springframework/spring-beans/6.2.5/spring-beans-6.2.5.jar;C:/Users/95164/.m2/repository/org/springframework/spring-core/6.2.5/spring-core-6.2.5.jar;C:/Users/95164/.m2/repository/org/springframework/spring-jcl/6.2.5/spring-jcl-6.2.5.jar;C:/Users/95164/.m2/repository/org/springframework/spring-expression/6.2.5/spring-expression-6.2.5.jar;C:/Users/95164/.m2/repository/io/micrometer/micrometer-observation/1.14.3/micrometer-observation-1.14.3.jar;C:/Users/95164/.m2/repository/io/micrometer/micrometer-commons/1.14.3/micrometer-commons-1.14.3.jar;C:/Users/95164/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar;C:/Users/95164/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar;C:/Users/95164/.m2/repository/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar;C:/Users/95164/.m2/repository/cn/hutool/hutool-all/5.8.37/hutool-all-5.8.37.jar;C:/Users/95164/.m2/repository/com/alibaba/fastjson/1.2.83/fastjson-1.2.83.jar;C:/Users/95164/.m2/repository/com/google/guava/guava/33.4.6-jre/guava-33.4.6-jre.jar;C:/Users/95164/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar;C:/Users/95164/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:/Users/95164/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar;C:/Users/95164/.m2/repository/com/google/errorprone/error_prone_annotations/2.36.0/error_prone_annotations-2.36.0.jar;C:/Users/95164/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar'
+-encoding
+'UTF-8'
+-protected
+--release
+17
+-sourcepath
+'D:/hula/HuLa-Server-master/luohuo-util/xxl-job-core/src/main/java;D:/hula/HuLa-Server-master/luohuo-util/xxl-job-core/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'D:/hula/HuLa-Server-master/luohuo-util/xxl-job-core/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'xxl-job-core 3.0.6 API'
+-use
+-version
+-windowtitle
+'xxl-job-core 3.0.6 API'
+com.xxl.job.core.biz
+com.xxl.job.core.biz.client
+com.xxl.job.core.biz.impl
+com.xxl.job.core.biz.model
+com.xxl.job.core.context
+com.xxl.job.core.enums
+com.xxl.job.core.executor.impl
+com.xxl.job.core.executor
+com.xxl.job.core.glue
+com.xxl.job.core.glue.impl
+com.xxl.job.core.handler.annotation
+com.xxl.job.core.handler
+com.xxl.job.core.handler.impl
+com.xxl.job.core.log
+com.xxl.job.core.server
+com.xxl.job.core.thread
+com.xxl.job.core.util
+C:\Users\95164\.m2\repository\io\netty\netty-all\4.1.117.Final\netty-all-4.1.117.Final.jar = 1766676221070
+C:\Users\95164\.m2\repository\io\netty\netty-buffer\4.1.117.Final\netty-buffer-4.1.117.Final.jar = 1766676214504
+C:\Users\95164\.m2\repository\io\netty\netty-codec\4.1.117.Final\netty-codec-4.1.117.Final.jar = 1766676215851
+C:\Users\95164\.m2\repository\io\netty\netty-codec-dns\4.1.117.Final\netty-codec-dns-4.1.117.Final.jar = 1766676218106
+C:\Users\95164\.m2\repository\io\netty\netty-codec-haproxy\4.1.117.Final\netty-codec-haproxy-4.1.117.Final.jar = 1766676221476
+C:\Users\95164\.m2\repository\io\netty\netty-codec-http\4.1.117.Final\netty-codec-http-4.1.117.Final.jar = 1766676218656
+C:\Users\95164\.m2\repository\io\netty\netty-codec-http2\4.1.117.Final\netty-codec-http2-4.1.117.Final.jar = 1766676220670
+C:\Users\95164\.m2\repository\io\netty\netty-codec-memcache\4.1.117.Final\netty-codec-memcache-4.1.117.Final.jar = 1766676221888
+C:\Users\95164\.m2\repository\io\netty\netty-codec-mqtt\4.1.117.Final\netty-codec-mqtt-4.1.117.Final.jar = 1766676221031
+C:\Users\95164\.m2\repository\io\netty\netty-codec-redis\4.1.117.Final\netty-codec-redis-4.1.117.Final.jar = 1766676222048
+C:\Users\95164\.m2\repository\io\netty\netty-codec-smtp\4.1.117.Final\netty-codec-smtp-4.1.117.Final.jar = 1766676221561
+C:\Users\95164\.m2\repository\io\netty\netty-codec-socks\4.1.117.Final\netty-codec-socks-4.1.117.Final.jar = 1766676218848
+C:\Users\95164\.m2\repository\io\netty\netty-codec-stomp\4.1.117.Final\netty-codec-stomp-4.1.117.Final.jar = 1766676219955
+C:\Users\95164\.m2\repository\io\netty\netty-codec-xml\4.1.117.Final\netty-codec-xml-4.1.117.Final.jar = 1766676220914
+C:\Users\95164\.m2\repository\io\netty\netty-common\4.1.117.Final\netty-common-4.1.117.Final.jar = 1766676214659
+C:\Users\95164\.m2\repository\io\netty\netty-handler\4.1.117.Final\netty-handler-4.1.117.Final.jar = 1766676215992
+C:\Users\95164\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.117.Final\netty-transport-native-unix-common-4.1.117.Final.jar = 1766676215234
+C:\Users\95164\.m2\repository\io\netty\netty-handler-proxy\4.1.117.Final\netty-handler-proxy-4.1.117.Final.jar = 1766676220282
+C:\Users\95164\.m2\repository\io\netty\netty-handler-ssl-ocsp\4.1.117.Final\netty-handler-ssl-ocsp-4.1.117.Final.jar = 1766676221276
+C:\Users\95164\.m2\repository\io\netty\netty-resolver\4.1.117.Final\netty-resolver-4.1.117.Final.jar = 1766676215977
+C:\Users\95164\.m2\repository\io\netty\netty-resolver-dns\4.1.117.Final\netty-resolver-dns-4.1.117.Final.jar = 1766676217735
+C:\Users\95164\.m2\repository\io\netty\netty-transport\4.1.117.Final\netty-transport-4.1.117.Final.jar = 1766676215400
+C:\Users\95164\.m2\repository\io\netty\netty-transport-rxtx\4.1.117.Final\netty-transport-rxtx-4.1.117.Final.jar = 1766676220783
+C:\Users\95164\.m2\repository\io\netty\netty-transport-sctp\4.1.117.Final\netty-transport-sctp-4.1.117.Final.jar = 1766676218880
+C:\Users\95164\.m2\repository\io\netty\netty-transport-udt\4.1.117.Final\netty-transport-udt-4.1.117.Final.jar = 1766676219887
+C:\Users\95164\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.117.Final\netty-transport-classes-epoll-4.1.117.Final.jar = 1766676218721
+C:\Users\95164\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.117.Final\netty-transport-classes-kqueue-4.1.117.Final.jar = 1766676217642
+C:\Users\95164\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.117.Final\netty-resolver-dns-classes-macos-4.1.117.Final.jar = 1766676217501
+C:\Users\95164\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar = 1766676217760
+C:\Users\95164\.m2\repository\org\apache\groovy\groovy\4.0.0\groovy-4.0.0.jar = 1766676219744
+C:\Users\95164\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar = 1766676207295
+C:\Users\95164\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar = 1766676206741
+C:\Users\95164\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar = 1766676205281
+C:\Users\95164\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar = 1766676205030
+C:\Users\95164\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar = 1766676207585
+C:\Users\95164\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar = 1766676205570
+C:\Users\95164\.m2\repository\io\micrometer\micrometer-observation\1.14.3\micrometer-observation-1.14.3.jar = 1766676206584
+C:\Users\95164\.m2\repository\io\micrometer\micrometer-commons\1.14.3\micrometer-commons-1.14.3.jar = 1766676206490
+C:\Users\95164\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar = 1760444475896
+C:\Users\95164\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar = 1728543691923
+C:\Users\95164\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar = 1766639319187
+C:\Users\95164\.m2\repository\cn\hutool\hutool-all\5.8.37\hutool-all-5.8.37.jar = 1766676204236
+C:\Users\95164\.m2\repository\com\alibaba\fastjson\1.2.83\fastjson-1.2.83.jar = 1766639334271
+C:\Users\95164\.m2\repository\com\google\guava\guava\33.4.6-jre\guava-33.4.6-jre.jar = 1766676203664
+C:\Users\95164\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar = 1766676203637
+C:\Users\95164\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar = 1765871499127
+C:\Users\95164\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar = 1764741634905
+C:\Users\95164\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar = 1766676204107
+C:\Users\95164\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar = 1766639422742
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\src\main\java = 1766142782000
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\generated-sources\annotations = 1767013290574
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\allclasses-index.html = 1767013294640
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\allpackages-index.html = 1767013294644
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\constant-values.html = 1767013294402
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\copy.svg = 1767013294706
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\element-list = 1767013294246
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\help-doc.html = 1767013294701
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\index-all.html = 1767013294687
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\index.html = 1767013294609
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\link.svg = 1767013294708
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\member-search-index.js = 1767013294651
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\module-search-index.js = 1767013294645
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\overview-summary.html = 1767013294694
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\overview-tree.html = 1767013294605
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\package-search-index.js = 1767013294646
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\script.js = 1767013294705
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\search-page.js = 1767013294711
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\search.html = 1767013294691
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\search.js = 1767013294710
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\serialized-form.html = 1767013294413
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\stylesheet.css = 1767013294704
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\tag-search-index.js = 1767013294652
+D:\hula\HuLa-Server-master\luohuo-util\xxl-job-core\target\reports\apidocs\type-search-index.js = 1767013294648

@@ -1,0 +1,10 @@
+com.luohuo.basic.validator.annotation
+com.luohuo.basic.validator.component
+com.luohuo.basic.validator.component.extract
+com.luohuo.basic.validator.config
+com.luohuo.basic.validator.constraintvalidators
+com.luohuo.basic.validator.mateconstraint
+com.luohuo.basic.validator.mateconstraint.impl
+com.luohuo.basic.validator.model
+com.luohuo.basic.validator.utils
+com.luohuo.basic.validator.wrapper

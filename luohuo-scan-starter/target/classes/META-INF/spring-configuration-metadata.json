@@ -1,0 +1,25 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.scan",
+      "type": "com.luohuo.basic.scan.properties.ScanProperties",
+      "sourceType": "com.luohuo.basic.scan.properties.ScanProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.scan.base-package",
+      "type": "java.lang.String",
+      "description": "扫描包路径",
+      "sourceType": "com.luohuo.basic.scan.properties.ScanProperties"
+    },
+    {
+      "name": "luohuo.scan.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用",
+      "sourceType": "com.luohuo.basic.scan.properties.ScanProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

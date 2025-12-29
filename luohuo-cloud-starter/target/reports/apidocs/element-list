@@ -1,0 +1,6 @@
+com.luohuo.basic.cloud.config
+com.luohuo.basic.cloud.feign
+com.luohuo.basic.cloud.http
+com.luohuo.basic.cloud.interceptor
+com.luohuo.basic.cloud.rule
+org.springframework.cloud.openfeign

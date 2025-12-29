@@ -1,0 +1,26 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.log",
+      "type": "com.luohuo.basic.log.properties.OptLogProperties",
+      "sourceType": "com.luohuo.basic.log.properties.OptLogProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.log.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用",
+      "sourceType": "com.luohuo.basic.log.properties.OptLogProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.log.type",
+      "type": "com.luohuo.basic.log.properties.OptLogType",
+      "description": "日志存储类型",
+      "sourceType": "com.luohuo.basic.log.properties.OptLogProperties",
+      "defaultValue": "db"
+    }
+  ],
+  "hints": []
+}

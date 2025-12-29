@@ -1,0 +1,85 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.cache",
+      "type": "com.luohuo.basic.cache.properties.CustomCacheProperties",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties"
+    },
+    {
+      "name": "luohuo.cache.def",
+      "type": "com.luohuo.basic.cache.properties.CustomCacheProperties$Cache",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.cache.cache-null-val",
+      "type": "java.lang.Boolean",
+      "description": "是否缓存 null 值",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.cache.configs",
+      "type": "java.util.Map<java.lang.String,com.luohuo.basic.cache.properties.CustomCacheProperties$Cache>",
+      "description": "针对某几个具体的key特殊配置 <p> 改属性只对 redis 有效！！！ configs的key需要配置成@Cacheable注解的value",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties"
+    },
+    {
+      "name": "luohuo.cache.def.cache-null-values",
+      "type": "java.lang.Boolean",
+      "description": "是否允许缓存null值",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.cache.def.key-prefix",
+      "type": "java.lang.String",
+      "description": "key 的前缀 最后的key格式： keyPrefix + @Cacheable.value + @Cacheable.key <p> 使用场景： 开发\/测试环境 或者 演示\/生产 环境，为了节省资源，往往会共用一个redis，即可以根据key前缀来区分(当然，也能用切换 database 来实现)",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties$Cache"
+    },
+    {
+      "name": "luohuo.cache.def.max-size",
+      "type": "java.lang.Integer",
+      "description": "Caffeine 的最大缓存个数",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": 1000
+    },
+    {
+      "name": "luohuo.cache.def.time-to-live",
+      "type": "java.time.Duration",
+      "description": "key 的过期时间 默认1天过期 eg: timeToLive: 1d",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": "1d"
+    },
+    {
+      "name": "luohuo.cache.def.use-key-prefix",
+      "type": "java.lang.Boolean",
+      "description": "写入redis时，是否使用key前缀",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties$Cache",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.cache.redis-scan-batch-size",
+      "type": "java.lang.Integer",
+      "description": "redis scan 一次返回数量",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties",
+      "defaultValue": 30
+    },
+    {
+      "name": "luohuo.cache.serializer-type",
+      "type": "com.luohuo.basic.cache.properties.SerializerType",
+      "description": "序列化类型",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties",
+      "defaultValue": "protostuff"
+    },
+    {
+      "name": "luohuo.cache.type",
+      "type": "com.luohuo.basic.cache.properties.CacheType",
+      "description": "目前只支持 REDIS 和 CAFFEINE ！ CAFFEINE 只用于项目的开发环境或者演示环境使用， 生产环境请用redis！！！",
+      "sourceType": "com.luohuo.basic.cache.properties.CustomCacheProperties",
+      "defaultValue": "redis"
+    }
+  ],
+  "hints": []
+}

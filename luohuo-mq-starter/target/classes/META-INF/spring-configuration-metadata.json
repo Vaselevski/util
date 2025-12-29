@@ -1,0 +1,19 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.rocketmq",
+      "type": "com.luohuo.basic.mq.properties.MqProperties",
+      "sourceType": "com.luohuo.basic.mq.properties.MqProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.rocketmq.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用",
+      "sourceType": "com.luohuo.basic.mq.properties.MqProperties",
+      "defaultValue": true
+    }
+  ],
+  "hints": []
+}

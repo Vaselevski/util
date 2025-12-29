@@ -1,0 +1,9 @@
+com.luohuo.basic.annotation
+com.luohuo.basic.aspect
+com.luohuo.basic.config
+com.luohuo.basic.dao
+com.luohuo.basic.domain.dto
+com.luohuo.basic.domain.entity
+com.luohuo.basic.event
+com.luohuo.basic.mapper
+com.luohuo.basic.service
