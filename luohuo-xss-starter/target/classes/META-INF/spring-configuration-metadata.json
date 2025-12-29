@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.xss",
+      "type": "com.luohuo.basic.xss.properties.XssProperties",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.xss.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.xss.ignore-param-values",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties",
+      "defaultValue": "noxss"
+    },
+    {
+      "name": "luohuo.xss.ignore-paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties"
+    },
+    {
+      "name": "luohuo.xss.order",
+      "type": "java.lang.Integer",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties",
+      "defaultValue": 1
+    },
+    {
+      "name": "luohuo.xss.patterns",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties",
+      "defaultValue": "\/*"
+    },
+    {
+      "name": "luohuo.xss.request-body-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用 RequestBody 注解标记的参数 反序列化时过滤XSS",
+      "sourceType": "com.luohuo.basic.xss.properties.XssProperties",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}

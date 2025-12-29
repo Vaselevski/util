@@ -1,0 +1,85 @@
+{
+  "groups": [
+    {
+      "name": "luohuo.echo",
+      "type": "com.luohuo.basic.echo.properties.EchoProperties",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties"
+    },
+    {
+      "name": "luohuo.echo.guava-cache",
+      "type": "com.luohuo.basic.echo.properties.EchoProperties$GuavaCache",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "luohuo.echo.aop-enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用 @EchoResult",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.echo.base-packages",
+      "type": "java.util.List<java.lang.String>",
+      "description": "启动程序时，将此包下标记了@Echo注解的实体类缓存到内存，提高回显性能",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties"
+    },
+    {
+      "name": "luohuo.echo.dict-item-separator",
+      "type": "java.lang.String",
+      "description": "多个字典code 之间的的分隔符",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties",
+      "defaultValue": ","
+    },
+    {
+      "name": "luohuo.echo.dict-separator",
+      "type": "java.lang.String",
+      "description": "字典类型 和 code 的分隔符",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties",
+      "defaultValue": "###"
+    },
+    {
+      "name": "luohuo.echo.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "luohuo.echo.guava-cache.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否启用本地缓存 <p> 注意：本地缓存开启后，会存在短暂的数据不一致情况(由guavaCacheRefreshWriteTime决定)， 所以对数据正确性有要求的项目建议禁用，然后在@Echo.method 方法上执行添加redis等缓存！",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties$GuavaCache",
+      "defaultValue": false
+    },
+    {
+      "name": "luohuo.echo.guava-cache.maximum-size",
+      "type": "java.lang.Integer",
+      "description": "guava缓存的 最大数",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties$GuavaCache",
+      "defaultValue": 1000
+    },
+    {
+      "name": "luohuo.echo.guava-cache.refresh-thread-pool-size",
+      "type": "java.lang.Integer",
+      "description": "guava自动刷新缓存的线程数量",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties$GuavaCache",
+      "defaultValue": 10
+    },
+    {
+      "name": "luohuo.echo.guava-cache.refresh-write-time",
+      "type": "java.lang.Integer",
+      "description": "guava更新缓存的下一次时间,分钟",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties$GuavaCache",
+      "defaultValue": 2
+    },
+    {
+      "name": "luohuo.echo.max-depth",
+      "type": "java.lang.Integer",
+      "description": "递归最大深度",
+      "sourceType": "com.luohuo.basic.echo.properties.EchoProperties",
+      "defaultValue": 3
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,11 @@
+com.luohuo.basic.tenant
+com.luohuo.basic.tenant.config
+com.luohuo.basic.tenant.core
+com.luohuo.basic.tenant.core.aop
+com.luohuo.basic.tenant.core.db
+com.luohuo.basic.tenant.core.mq.rocketmq
+com.luohuo.basic.tenant.core.redis
+com.luohuo.basic.tenant.core.rpc
+com.luohuo.basic.tenant.core.service
+com.luohuo.basic.tenant.core.util
+com.luohuo.basic.tenant.core.web

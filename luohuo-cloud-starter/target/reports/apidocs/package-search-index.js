@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.luohuo.basic.cloud.config"},{"l":"com.luohuo.basic.cloud.feign"},{"l":"com.luohuo.basic.cloud.http"},{"l":"com.luohuo.basic.cloud.interceptor"},{"l":"com.luohuo.basic.cloud.rule"},{"l":"org.springframework.cloud.openfeign"}];updateSearchResults();

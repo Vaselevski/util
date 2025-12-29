@@ -1,0 +1,13 @@
+com.github.tobato.fastdfs
+com.github.tobato.fastdfs.domain.conn
+com.github.tobato.fastdfs.domain.fdfs
+com.github.tobato.fastdfs.domain.proto
+com.github.tobato.fastdfs.domain.proto.mapper
+com.github.tobato.fastdfs.domain.proto.storage
+com.github.tobato.fastdfs.domain.proto.storage.enums
+com.github.tobato.fastdfs.domain.proto.storage.internal
+com.github.tobato.fastdfs.domain.proto.tracker
+com.github.tobato.fastdfs.domain.proto.tracker.internal
+com.github.tobato.fastdfs.domain.upload
+com.github.tobato.fastdfs.exception
+com.github.tobato.fastdfs.service

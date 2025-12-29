@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.luohuo.basic.swagger2"},{"l":"com.luohuo.basic.swagger2.properties"}];updateSearchResults();

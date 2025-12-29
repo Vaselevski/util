@@ -1,0 +1,6 @@
+com.luohuo.basic.annotation.constraints
+com.luohuo.basic.annotation.database
+com.luohuo.basic.annotation.echo
+com.luohuo.basic.annotation.log
+com.luohuo.basic.annotation.response
+com.luohuo.basic.annotation.user

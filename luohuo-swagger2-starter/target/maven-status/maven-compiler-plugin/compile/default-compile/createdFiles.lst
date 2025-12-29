@@ -1,0 +1,8 @@
+com\luohuo\basic\swagger2\MyKnife4jOpenApiCustomizer.class
+com\luohuo\basic\swagger2\Swagger2Configuration.class
+com\luohuo\basic\swagger2\properties\SwaggerProperties$Contact.class
+com\luohuo\basic\swagger2\SwaggerAutoConfiguration.class
+com\luohuo\basic\swagger2\properties\SwaggerProperties$GlobalOperationParameter.class
+META-INF\spring-configuration-metadata.json
+com\luohuo\basic\swagger2\properties\SwaggerProperties.class
+com\luohuo\basic\swagger2\SwaggerWebMvcConfigurer.class

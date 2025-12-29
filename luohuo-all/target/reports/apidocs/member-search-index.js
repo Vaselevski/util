@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.luohuo.basic","c":"LuohuoUtil","l":"LuohuoUtil()","u":"%3Cinit%3E()"}];updateSearchResults();

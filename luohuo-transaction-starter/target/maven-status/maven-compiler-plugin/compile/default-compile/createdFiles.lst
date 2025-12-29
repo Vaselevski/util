@@ -1,0 +1,17 @@
+com\luohuo\basic\service\SecureInvokeHolder.class
+com\luohuo\basic\domain\dto\SecureInvokeDTO$SecureInvokeDTOBuilder.class
+com\luohuo\basic\mapper\SecureInvokeRecordMapper.class
+com\luohuo\basic\dao\SecureInvokeRecordDao.class
+com\luohuo\basic\service\MQProducer.class
+com\luohuo\basic\domain\dto\SecureInvokeDTO.class
+com\luohuo\basic\domain\entity\SecureInvokeRecord.class
+com\luohuo\basic\annotation\SecureInvoke.class
+com\luohuo\basic\service\SecureInvokeService.class
+com\luohuo\basic\service\SecureInvokeService$1.class
+com\luohuo\basic\event\StringEvent.class
+com\luohuo\basic\config\TransactionAutoConfiguration.class
+com\luohuo\basic\domain\entity\SecureInvokeRecord$SecureInvokeRecordBuilder.class
+com\luohuo\basic\annotation\SecureInvokeConfigurer.class
+com\luohuo\basic\aspect\SecureInvokeAspect.class
+com\luohuo\basic\event\ListDTO.class
+com\luohuo\basic\event\ListDTO$ListDTOBuilder.class
